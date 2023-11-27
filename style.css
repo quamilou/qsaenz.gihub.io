@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Police par défaut */
+    background-color: #f0f0f0; /* Couleur de fond pour le mode jour */
+    color: #333; /* Couleur du texte pour le mode jour */
+    line-height: 1.6;
+}
+
+/* Style du bouton Mode Nuit/Jour */
+#toggle-dark-mode {
+    background-color: #4CAF50; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte du bouton */
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Mode Nuit */
+.dark-mode {
+    background-color: #2B2B2B; /* Couleur de fond pour le mode nuit */
+    color: #FFFFFF; /* Couleur du texte pour le mode nuit */
+}
+
+/* Style du Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Style de la navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style des sections */
+section {
+    margin: 20px 0;
+    padding: 20px;
+}
+
+/* Style spécifique pour les titres */
+h1, h2, h3 {
+    font-family: 'Press Start 2P', cursive;
+}
+
+/* Style des blocs d'images et de texte */
+.image-text-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.image-text-block img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #333;
+}
+
+.image-text-block .text {
+    width: 50%;
+    padding: 20px;
+}
+
+/* Style du Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
